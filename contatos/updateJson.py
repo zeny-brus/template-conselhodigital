@@ -89,7 +89,7 @@ def main():
 
     cidades = construir_mapa_cidades(tabela_cidade)
     resultado = agrupar_contatos_por_cidade(tabela_contato, cidades)
-    salvar_json(resultado, "contatos_por_cidade.json")
+    salvar_json(resultado, "public/contatos_por_cidade.json")
     print("Execução finalizada.")
 
 

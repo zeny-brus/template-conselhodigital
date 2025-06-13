@@ -30,6 +30,8 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <!-- Contatos -->
   <script src="assets/js/contatos.js"></script>
+  <!-- Eventos JS -->
+  <script src="assets/js/home-eventos.js" defer></script>
 </head>
 
 <body class="index-page">
@@ -66,13 +68,59 @@
               adolescentes. </p>
           </div>
           <div class="col-lg-6 d-flex flex-column align-items-center align-items-lg-end">
-            <img src="/assets/img/adults and kids.png" class="img-fluid mb-3" alt="">
+            <img src="assets/img/adults-and-kids.png" class="img-fluid mb-3" alt="">
           </div>
         </div>
       </div>
     </section>
     <!-- end hero-->
+    <!-- section Eventos /-->
+    <section id="eventos" class="portfolio section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Últimos Eventos</h2>
+      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <!-- Placeholder Evento 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/catching-up.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p class="post-category"></p>
+                  <h4>Carregando...</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
 
+            <!-- Placeholder Evento 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/catching-up.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p class="post-category"></p>
+                  <h4>Carregando...</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Placeholder Evento 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/catching-up.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p class="post-category"></p>
+                  <h4>Carregando...</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Section Contato -->
     <section id="contato" class="contact section">
       <div class="container section-title mb-0 pb-0" data-aos="fade-up">
@@ -137,68 +185,6 @@
       </div>
     </section>
     <!-- end Sobre-->
-    <!-- section Eventos /-->
-    <section id="eventos" class="portfolio section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Últimos Eventos</h2>
-      </div>
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Todos</li>
-            <li data-filter=".filter-cursos">Cursos</li>
-            <li data-filter=".filter-formacoes">Formações</li>
-            <li data-filter=".filter-palestras">Palestras</li>
-          </ul>
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cursos">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Catching Up.png" class="img-fluid" alt=""></imgsrc>
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Curso 01</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-formacoes">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Catching Up.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Formação 01</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-palestras">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Catching Up.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4><a href="portfolio-details.html" title="More Details">Palestra 01</a></h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Pagination Section -->
-      <section id="blog-pagination" class="blog-pagination section">
-        <div class="container">
-          <div class="d-flex justify-content-center">
-            <ul>
-              <li><a href="#"><i class="bi bi-chevron-left"></i></a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#" class="active">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li>...</li>
-              <li><a href="#">10</a></li>
-              <li><a href="#"><i class="bi bi-chevron-right"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!--  Pagination Section -->
   </main>
   <footer id="footer" class="footer accent-background">
     <div class="container copyright text-center mt-4">
@@ -222,7 +208,7 @@
   <!-- Preloader -->
   <div id="preloader"></div>
   <!-- Vendor JS Files -->
-   <script src="script.js"></script>
+  <script src="script.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

@@ -48,5 +48,13 @@
             "info": "Zona",
             "endereco": "Rua 100"
         }
+    ],
+    "Sapiranga": [
+        {
+            "nome": "Região 1",
+            "telefone": "(51) 3597-3211",
+            "info": "Centro",
+            "endereco": "R. Dolores Alcaraz Caldas, 194"
+        }
     ]
 }

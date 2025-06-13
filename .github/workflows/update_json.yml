@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git add contatos_por_cidade.json  # Adiciona o arquivo gerado
+          git add public/contatos_por_cidade.json  # Adiciona o arquivo gerado
           git commit -m 'Atualiza o arquivo contatos_por_cidade.json' || echo "No changes to commit"
           git push
         env:
